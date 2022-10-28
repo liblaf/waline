@@ -1,8 +1,7 @@
 {
-  "name": "template",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@waline/vercel": "latest"
+    "@waline/vercel": "^1.25.0"
   }
 }
