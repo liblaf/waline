@@ -1,5 +1,4 @@
 {
-  "name": "comment",
   "github": {
     "silent": true
   },
@@ -7,9 +6,17 @@
     {
       "src": "index.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "favicon.ico",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
+    {
+      "src": "/favicon.ico",
+      "dest": "favicon.ico"
+    },
     {
       "src": "/(.*)",
       "dest": "index.js"
